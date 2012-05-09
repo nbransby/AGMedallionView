@@ -162,6 +162,7 @@
 
 - (void)drawRect:(CGRect)rect
 {
+    rect = self.bounds;
     // Image rect
     CGRect imageRect = CGRectMake((self.borderWidth), 
                                   (self.borderWidth) , 
